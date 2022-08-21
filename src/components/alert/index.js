@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 const Alert = (props) => {
 
-    const [visible, setVisible] = useState(true)
+    const [visible, setVisible] = useState(true);
 
     return (
         <Container visible={visible}>
